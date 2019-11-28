@@ -15,6 +15,7 @@ import org.junit.Test;
 public class LoginTest {
     @Test
     public void testHelloworld() {
+        //测试
         Factory<SecurityManager> factory =
             new IniSecurityManagerFactory("classpath:shiro-realm.ini");
         org.apache.shiro.mgt.SecurityManager securityManager = factory.getInstance();
